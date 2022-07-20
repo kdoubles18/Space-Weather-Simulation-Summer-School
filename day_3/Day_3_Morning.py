@@ -106,7 +106,7 @@ JB2008_dens_reshaped = np.reshape(JB2008_dens,(nofLst_JB2008,nofLat_JB2008,nofAl
 
 #%%
 """
-Homework 1
+Assignment 1
 
 Can you plot the mean density for each altitude at February 1st, 2002?
 """
@@ -178,7 +178,7 @@ savemat("matlab_matrix.mat", mdic)
 
 #%%
 """
-Homework 2 (a)
+Assignment 2 (a)
 
 The two data that we have been working on today have different discretization grid.
 Use 3D interpolation to evaluate the TIE-GCM density field at 400 KM on February 1st, 2002, with the discretized grid used for the JB2008 ((nofLst_JB2008,nofLat_JB2008,nofAlt_JB2008).
@@ -190,7 +190,7 @@ Use 3D interpolation to evaluate the TIE-GCM density field at 400 KM on February
 
 #%%
 """
-Homework 2 (b)
+Assignment 2 (b)
 
 Now, let's find the difference between both density models and plot out this difference in a contour plot.
 """
@@ -201,7 +201,7 @@ Now, let's find the difference between both density models and plot out this dif
 
 #%%
 """
-Homework 2 (c)
+Assignment 2 (c)
 
 In the scientific field, it is sometime more useful to plot the differences in terms of mean absolute percentage difference/error (MAPE). Let's plot the MAPE for this scenario.
 """

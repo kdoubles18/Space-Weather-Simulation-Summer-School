@@ -46,7 +46,7 @@ plot_cols = ['T (degC)', 'p (mbar)', 'rho (g/m**3)']
 
 #%%
 """
-Data filtering and generating heatmap (2D histogram)
+Data filtering, generating histogram and heatmap (2D histogram)
 """
 
 
