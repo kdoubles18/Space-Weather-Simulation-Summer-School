@@ -163,6 +163,25 @@ for time in times:
 
 ---------------------------
 
+# pcolormesh
+
+- It's like a `plt.contourf` plot but with needing to make a `np.meshgrid()`
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+num_of_x = 10
+num_of_y = 20
+x = np.linspace(0, 1, num_of_x)
+y = np.linspace(0, 1, num_of_y)
+z = np.random.randn(num_of_y, num_of_x)
+plt.pcolormesh(x, y, z)
+plt.colorbar()
+```
+
+---------------------------
+
 # NetCDF
 
 ---------------------------
