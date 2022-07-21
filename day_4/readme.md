@@ -203,6 +203,13 @@ pip install --user netCDF4
 
 - Let's download ionosphere forecast data from 
   https://www.swpc.noaa.gov/products/wam-ipe
+- We want to extract the files
+
+```bash
+conda install -c conda-forge tar
+tar -xvf wfs.*.tar
+```
+
 - We want the 2D files `ls *ipe05*.nc`
 - `*` means match this pattern with any string of length
 - `.nc` is a `NetCDF` file
